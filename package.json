@@ -1,0 +1,42 @@
+{
+  "name": "mongoose-restful-crud",
+  "version": "0.5.0",
+  "description": "A Mongoose CRUD for RESTful API based applications",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgou/mongoose-api-crud.git"
+  },
+  "keywords": [
+    "mongoose",
+    "nodejs",
+    "express",
+    "crud",
+    "api",
+    "middleware"
+  ],
+  "author": "Rafael Goulart <rafaelgou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelgou/mongoose-api-crud/issues"
+  },
+  "homepage": "https://github.com/rafaelgou/mongoose-api-crud#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "mongoose": "^4.5.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.18",
+    "nodemon": "^1.9.2",
+    "should": "^8.3.1",
+    "supertest": "^1.2.0"
+  }
+}
