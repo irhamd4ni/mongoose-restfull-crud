@@ -30,13 +30,15 @@
   "homepage": "https://github.com/rafaelgou/mongoose-api-crud#readme",
   "dependencies": {
     "async": "^2.0.1",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
     "mongoose": "^4.5.9"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "mongodb": "^2.1.18",
-    "nodemon": "^1.9.2",
-    "should": "^8.3.1",
-    "supertest": "^1.2.0"
+    "mocha": "^3.0.2",
+    "mongodb": "^2.2.6",
+    "nodemon": "^1.10.0",
+    "should": "^11.1.0",
+    "supertest": "^2.0.0"
   }
 }
